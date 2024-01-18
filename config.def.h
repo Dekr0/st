@@ -22,7 +22,7 @@ static int borderpx = 0;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "tmux";
+static char *shell = "/bin/zsh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -115,6 +115,8 @@ typedef struct {
  * foreground, background, cursor, reverse cursor
  */
 static const ColorScheme schemes[] = {
+    // rose-pine
+
 	// st (dark)
 	{{"black", "red3", "green3", "yellow3",
 	  "blue2", "magenta3", "cyan3", "gray90",
