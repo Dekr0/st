@@ -97,7 +97,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
 float alpha = 0.6;
@@ -116,6 +116,11 @@ typedef struct {
  */
 static const ColorScheme schemes[] = {
     // rose-pine
+    {{ "#26233a", "#eb6f92", "#9ccfd8", "#f6c177",
+       "#31748f", "#c4a7e7", "#ebbcba", "#e0def4",
+       "#6e6a86", "#eb6f92", "#9ccfd8", "#f6c177",
+       "#31748f", "#c4a7e7", "#ebbcba", "#e0def4",
+       [256] = "#000000", "#191724"}, 7, 256, 7, 7},
 
 	// st (dark)
 	{{"black", "red3", "green3", "yellow3",
