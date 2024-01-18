@@ -8,8 +8,7 @@
 static char *font = "CodeNewRomanNerdFont:pixelsize=16:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
-/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+    "CodeNewRomanNerdFont:pixelsize=16:antialias=true:autohint=true"
 };
 
 static int borderpx = 0;
