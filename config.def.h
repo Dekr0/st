@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CodeNewRomanNerdFont:pixelsize=16:antialias=true:autohint=true";
+static char *font = "CodeNewRomanNerdFont:pixelsize=18:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "CodeNewRomanNerdFont:pixelsize=16:antialias=true:autohint=true"
+    "CodeNewRomanNerdFont:pixelsize=18:antialias=true:autohint=true"
 };
 
 static int borderpx = 0;
